@@ -18,5 +18,12 @@ public class Main {
             System.out.println("Установите приложение банка");
         }
 
+        int year = 2022;
+        if (year %4 == 0 && year %100 != 0 || year%400 == 0){
+            System.out.println("Год является високосным");
+        }
+        else
+            System.out.println("Не високосный");
+
     }
 }
