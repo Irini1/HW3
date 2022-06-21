@@ -39,7 +39,6 @@ public class Main {
         System.out.println("Потребуется дней " + deliveryDays);
 
         {
-            task5();
             {
                 int mounthNumber = 1;
                 switch (mounthNumber) {
@@ -66,6 +65,7 @@ public class Main {
                     default:
                         System.out.println("Некорректный месяц: " + mounthNumber);
                 }
-
             }
         }
+    }
+}
